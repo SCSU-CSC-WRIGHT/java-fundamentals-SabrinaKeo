@@ -1,0 +1,77 @@
+<html>
+<head>
+<title>Main.java</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #8c8c8c; font-style: italic;}
+.s1 { color: #080808;}
+.s2 { color: #0033b3;}
+.s3 { color: #067d17;}
+.s4 { color: #1750eb;}
+</style>
+</head>
+<body bgcolor="#ffffff">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#c0c0c0" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+Main.java</font>
+</center></td></tr></table>
+<pre><span class="s0">//Creating the class</span>
+<span class="s2">public class </span><span class="s1">Main {</span>
+    <span class="s0">//Creating the methods for each Exercise</span>
+    <span class="s2">public static void </span><span class="s1">main(String[] args) {</span>
+        <span class="s1">helloWorld(); </span><span class="s0">//calling the Hello World method</span>
+        <span class="s1">variables(); </span><span class="s0">//calling the variables method</span>
+        <span class="s1">statement(); </span><span class="s0">//calling the statements method</span>
+        <span class="s1">looping(); </span><span class="s0">// calling the looping method</span>
+        <span class="s1">System.out.println(greetings(</span><span class="s3">&quot;Sabrina&quot;</span><span class="s1">)); </span><span class="s0">/*calling the greetings method 
+                                                         with Sabrina as the 
+                                                        argument and printing result*/</span>
+
+    <span class="s1">}</span>
+    <span class="s0">//Exercise 1: print &quot;Hello, World!&quot;</span>
+    <span class="s2">public static void </span><span class="s1">helloWorld() {</span>
+        <span class="s1">System.out.println(</span><span class="s3">&quot;Hello, World!&quot;</span><span class="s1">);</span>
+
+    <span class="s1">}</span>
+
+    <span class="s0">//Exercise 2: Variables and Data Types</span>
+    <span class="s2">public static void </span><span class="s1">variables(){</span>
+        <span class="s2">int </span><span class="s1">x = </span><span class="s4">10</span><span class="s1">;</span>
+        <span class="s1">String message = </span><span class="s3">&quot;The number is &quot;</span><span class="s1">;</span>
+        <span class="s1">System.out.println(message + x);</span>
+
+    <span class="s1">}</span>
+
+    <span class="s0">//Exercise 3: If-Else Statement</span>
+    <span class="s2">public static void </span><span class="s1">statement(){</span>
+        <span class="s2">int </span><span class="s1">number = </span><span class="s4">14</span><span class="s1">; </span><span class="s0">//assigning a number</span>
+        <span class="s2">if </span><span class="s1">(number % </span><span class="s4">2 </span><span class="s1">== </span><span class="s4">0</span><span class="s1">) { </span><span class="s0">//using remainder operator to identify odd or even number</span>
+            <span class="s1">System.out.println(</span><span class="s3">&quot;Even&quot;</span><span class="s1">);</span>
+        <span class="s1">} </span><span class="s2">else </span><span class="s1">{</span>
+            <span class="s1">System.out.println(</span><span class="s3">&quot;Odd&quot;</span><span class="s1">);</span>
+        <span class="s1">}</span>
+    <span class="s1">}</span>
+
+    <span class="s0">//Exercise 4: Loops</span>
+    <span class="s2">public static void </span><span class="s1">looping() {</span>
+        <span class="s2">for </span><span class="s1">(</span><span class="s2">int </span><span class="s1">i = </span><span class="s4">0</span><span class="s1">; i &lt; </span><span class="s4">5</span><span class="s1">; i++) { </span><span class="s0">//starting from 0, print i until i is equal to 5</span>
+            <span class="s1">System.out.println(i);</span>
+        <span class="s1">}</span>
+        <span class="s1">}</span>
+
+    <span class="s0">//Exercise 5: Methods</span>
+    <span class="s2">public static </span><span class="s1">String greetings(String name){</span>
+    <span class="s2">return </span><span class="s3">&quot;Hello, &quot; </span><span class="s1">+ name + </span><span class="s3">&quot;!&quot;</span><span class="s1">;</span>
+    <span class="s1">}</span>
+    <span class="s1">}</span>
+
+
+
+
+
+
+
+</pre>
+</body>
+</html>
